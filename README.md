@@ -1,5 +1,4 @@
 # myMontyHall
-StepOne test
 
 
 Problem description:
