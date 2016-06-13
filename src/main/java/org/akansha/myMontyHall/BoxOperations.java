@@ -39,13 +39,7 @@ public class BoxOperations {
 	// change to an non winning box and vice verse.
 
 	public BoxOperations changeMind() {
-		/*Box changedBox;
-		if (isWinner()) {
-			changedBox = null;
-		} else {
-			changedBox = pricedBox;
-		}*/
-		 Box changedBox = isWinner() ? null : pricedBox;
+		Box changedBox = isWinner() ? null : pricedBox;
 		return new BoxOperations(this, changedBox);
 	}
 }

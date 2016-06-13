@@ -22,6 +22,11 @@ public class MontyHall {
 
 		System.out.println("Without Change, winning: " + winsWithoutChangePercentage + "%");
 		System.out.println("With Change, winning: " + winsWithChangePercentage + "%");
+		if(winsWithoutChangePercentage<winsWithChangePercentage){
+			System.out.println("Its better to change Mind");
+		}else{
+			System.out.println("Its better not to change Mind");
+		}
 
 	}
 
